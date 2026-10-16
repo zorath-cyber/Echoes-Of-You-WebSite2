@@ -1,0 +1,476 @@
+.body1 {
+    background-color: #060918;
+}
+
+.banner1 {
+    background-color: rgba(0, 0, 0, 0.568);
+    color: rgb(255, 176, 0);
+    border: 3px solid #000000;
+    box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.5);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.bordacentral {
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-bottom: 300px;
+    min-height: 500vh;
+    background-color: #161a23;
+    border: 3px solid #000000;
+    padding: 30px;
+    box-shadow: 0px 0px 15px 5px rgba(255, 165, 0, 0.5);
+    color: rgb(255, 176, 0);
+    box-sizing: border-box;
+}
+
+.SkylarGigante {
+    margin-bottom: 0px;
+    margin-top: -100px;
+}
+
+.abouthegame {
+    color: rgb(255, 176, 0);
+}
+
+.title1 {
+    font-family: 'Courier New', Courier, monospace;
+    padding-right: 300px;
+    background-color: rgba(20, 20, 20, 0.85);
+    border: 1px solid #555;
+    border-radius: 5px;
+}
+
+.downloadtitle {
+    font-family: 'Courier New', Courier, monospace;
+    padding-right: 300px;
+    background-color: rgba(20, 20, 20, 0.85);
+    border: 1px solid #555;
+    border-radius: 5px;
+}
+
+.general1 {
+    font-family: 'Courier New', Courier, monospace;
+    padding-right: 300px;
+    background-color: rgba(20, 20, 20, 0.85);
+    border: 1px solid #555;
+    border-radius: 5px;
+}
+
+.carousel-inner {
+    box-shadow: 0px 0px 15px 5px rgba(1, 8, 77, 0.842);
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 50px;
+    height: 50px;
+    top: 50%;
+    transform: translateY(-50%);
+
+    background-color: rgba(20, 20, 20, 0.85);
+    border: 1px solid #555;
+    border-radius: 5px;
+
+    opacity: 0.8;
+    transition: 0.3s;
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+    opacity: 1;
+    transform: translateY(-50%) scale(1.1);
+}
+
+.carousel-control-prev {
+    left: 15px;
+}
+
+.carousel-control-next {
+    right: 15px;
+}
+
+.SobreSkylar {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.skylartitle {
+    padding-right: 300px;
+    background-color: rgba(20, 20, 20, 0.85);
+    border: 1px solid #555;
+    border-radius: 5px;
+}
+
+.atualdesenolvimento {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.desenvolvimentotilte {
+    padding-right: 300px;
+    background-color: rgba(20, 20, 20, 0.85);
+    border: 1px solid #555;
+    border-radius: 5px;
+}
+
+.btn-primary {
+    background-color: #1a1a1a;
+    border-color: #444;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #333;
+    border-color: #666;
+    color: white;
+}
+
+.sobremiya {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.sobremiyatitle {
+    padding-right: 300px;
+    background-color: rgba(20, 20, 20, 0.85);
+    border: 1px solid #555;
+    border-radius: 5px;
+}
+
+.DLCarea {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.dlctitle {
+    padding-right: 300px;
+    background-color: rgba(20, 20, 20, 0.85);
+    border: 1px solid #555;
+    border-radius: 5px;
+}
+
+.dlctext {
+    background-color: #010720;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+
+.fanarstArea {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.fanartstitle {
+    padding-right: 300px;
+    background-color: rgba(20, 20, 20, 0.85);
+    border: 1px solid #555;
+    border-radius: 5px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.carousel {
+    width: 100%;
+}
+
+.email1 {
+    color: rgb(252, 252, 252);
+}
+
+.navegador1 {
+    background-color: rgba(20, 20, 20, 0.85);
+    min-height: 7vh;
+    background-size: 8vh;
+    border: 1px solid #555;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rodape {
+    background-color: #010720;
+    width: 100%;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    padding: 15px 20px;
+    box-sizing: border-box;
+}
+
+.download {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.downloadbotao {
+    display: block;
+    width: fit-content;
+    margin: 15px auto 0;
+}
+
+.warning1 {
+    padding-right: 15px;
+    border: 0px solid #555;
+    border-radius: 5px;
+}
+
+/* IMAGENS NUNCA SAE DA TELA */
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* 
+   TABLET
+  */
+
+@media (max-width: 768px) {
+
+    .bordacentral {
+        width: 94% !important;
+        padding: 20px;
+    }
+
+    /* MENU */
+
+    .navegador1 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 4px;
+        height: auto;
+        padding: 8px;
+    }
+
+    .navegador1 a {
+        margin: 2px;
+    }
+
+
+    /* TÍTULOS */
+
+    .title1,
+    .general1,
+    .skylartitle,
+    .desenvolvimentotilte,
+    .sobremiyatitle,
+    .dlctitle,
+    .fanartstitle
+    .downloadtitle
+    .downloadtitle {
+        padding-right: 0;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+
+    /* IMAGEM PRINCIPAL */
+
+    .SkylarGigante {
+        width: 90%;
+        max-width: 500px;
+        height: auto;
+        margin-top: -50px;
+    }
+
+
+    /* IMAGEM DA SKYLAR */
+
+    .SobreSkylar img {
+        width: 500px;
+        max-width: 100%;
+        height: auto;
+    }
+
+
+    /* CARROSSEL */
+
+    .carousel {
+        width: 100%;
+    }
+
+    .carousel-inner {
+        width: 100%;
+    }
+
+    .carousel-item img {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+    }
+
+
+    /* RODAPÉ */
+
+    .rodape {
+    background-color: #010720;
+    width: calc(100% + 60px);
+    margin-left: -30px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    padding: 15px 20px;
+    box-sizing: border-box;
+    }
+}
+
+
+/* 
+   CELULAR
+ */
+
+@media (max-width: 480px) {
+
+    .bordacentral {
+        width: 96% !important;
+        padding: 12px;
+    }
+
+
+    /* IMAGEM PRINCIPAL */
+
+    .SkylarGigante {
+        width: 90%;
+        max-width: 500px;
+        margin-top: -30px;
+    }
+
+
+    /* MENU */
+
+    .navegador1 {
+        padding: 6px;
+        gap: 3px;
+    }
+
+    .navegador1 a {
+        font-size: 12px;
+        padding: 6px 8px;
+    }
+
+
+    /* TÍTULOS */
+
+    .title1,
+    .general1,
+    .skylartitle,
+    .desenvolvimentotilte,
+    .sobremiyatitle,
+    .dlctitle,
+    .fanartstitle
+    .downloadtitle {
+        width: 100%;
+        padding: 8px;
+        font-size: 18px;
+    }
+
+
+    /* IMAGENS */
+
+    .SobreSkylar img {
+        width: 100%;
+        max-width: 500px;
+        height: auto;
+    }
+
+
+    /* CARROSSEL */
+
+    .carousel {
+        width: 100%;
+    }
+
+    .carousel-inner {
+        width: 100%;
+    }
+
+    .carousel-item img {
+        width: 100%;
+        height: auto;
+    }
+
+
+    /* BOTÕES DO CARROSSEL */
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        width: 40px;
+        height: 40px;
+    }
+
+    .carousel-control-prev {
+        left: 5px;
+    }
+
+    .carousel-control-next {
+        right: 5px;
+    }
+
+
+    /* TEXTOS */
+
+    .abouthegame p,
+    .SobreSkylar p,
+    .atualdesenolvimento p,
+    .sobremiya p,
+    .DLCarea p,
+    .fanarstArea p
+    .download p {
+        max-width: 100%;
+        overflow-wrap: break-word;
+    }
+
+
+    /* RODAPÉ */
+
+    .rodape {
+        width: calc(100% + 24px);
+        margin-left: -12px;
+        padding: 15px 10px;
+    }
+}
+
+
+/* 
+   CELULARES PEQUENOS
+*/
+
+@media (max-width: 360px) {
+
+    .bordacentral {
+        width: 97% !important;
+        padding: 10px;
+    }
+
+
+    .navegador1 a {
+        font-size: 11px;
+        padding: 5px 6px;
+    }
+
+
+    .title1,
+    .general1,
+    .skylartitle,
+    .desenvolvimentotilte,
+    .sobremiyatitle,
+    .dlctitle,
+    .fanartstitle
+    .downloadtitle {
+        font-size: 16px;
+        padding: 7px;
+    }
+
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        width: 35px;
+        height: 35px;
+    }
+}
